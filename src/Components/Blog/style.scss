@@ -1,0 +1,63 @@
+@import '../../assets/style/global.scss';
+
+.blog-blok{
+    width: 100%;
+    
+    background-color: #343a40;
+
+.blog-title{
+    width: 100%;
+    height: 300px;
+    
+
+.blog-name{
+    font-size: 60px;
+    color: snow;
+}
+.blog-btn{
+    width: 100%;
+    height: 120px;
+   
+
+.blog-button{
+    width: 180px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color:snow;
+}
+
+}
+
+}    
+
+
+.blog-product{
+    width: 100%;
+    // height: 600px;
+
+}
+
+}
+
+@media screen and(max-width: 768px) {
+.blog-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+.product-blok{
+    width: 90%;
+
+
+.product-img{
+    height: 55%;
+}
+
+}
+
+}   
+}

@@ -1,0 +1,102 @@
+@import '../../assets/style/global.scss';
+.contact-blok{
+    width: 100%;
+ 
+    background-color: #343a40;
+
+.contact-contenier{
+    width: 100%;
+
+
+
+.iframe{
+    width: 50%;
+    height: 450px;
+
+.iframesecnd{
+    width: 100%;
+    height: 100%;
+}    
+  
+}   
+.contact-info{
+    width: 46%;
+    height: 350px;
+
+
+.foot-icon{
+    display: flex;
+    align-items: center;
+
+.icon{
+    color:  #adb5bd;
+}
+
+.foot-information{
+    margin-left: 15px;
+}
+
+}
+.foot-title{
+    font-size: 35px;
+    color: snow;
+    font-weight: 300;
+}
+.foot-text{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    color: snow;
+}
+.foot-information{
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+} 
+
+
+
+
+
+}
+.user-contact{
+    width: 100%;
+    padding: 110px 15px;
+}
+
+}
+
+@media screen and(max-width: 768px) {
+.contact-contenier{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+.contact-info{
+    width: 100%;
+
+
+.foot-text{
+    width: 100%;
+}
+
+}
+
+
+.iframe{
+    width: 90%;
+    margin-bottom: 50px;
+.iframesecnd{
+    width: 100%;
+}
+
+}
+
+}
+
+    
+}

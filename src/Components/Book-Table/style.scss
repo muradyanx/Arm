@@ -1,0 +1,60 @@
+@import '../../assets/style/global.scss';
+
+
+.book-blok{
+    width: 100%;
+    height: 450px;
+    background-image: url(../../../public/img/book-table-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+.book-text{
+    font-size: 70px;
+    color: snow;
+}
+
+.book-item{
+    width: 100%;
+    .book-input{
+        width: 24%;
+        height: 50px;
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
+
+.eror-input{
+    border: 2px solid red;
+}
+
+}
+.book-btn{
+    width: 140px;
+    height: 60px;
+    background-color: red;
+    color: snow;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+}
+
+@media screen and(max-width: 768px) {
+    
+.book-item{
+flex-wrap: wrap;
+
+.book-input{
+    width: 48%;
+    margin: 15px auto;
+}
+
+
+
+}
+
+}

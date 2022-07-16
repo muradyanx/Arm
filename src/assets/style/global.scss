@@ -1,0 +1,52 @@
+.g-cursor-pointer{
+    cursor: pointer;
+}
+
+.g-flex{
+    display: flex;
+}
+
+.g-background-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.g-justify-between{
+   display: flex;
+   justify-content: space-between;
+}
+
+.g-justify-evenly{
+    display: flex;
+    justify-content: space-evenly;
+}
+.g-justify-around{
+    display: flex;
+    justify-content: space-around;
+}
+.g-align-center{
+    display: flex;
+    align-items: center;
+}
+
+.g-justifi-align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g-flex-direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.g-text-center{
+    text-align: center;
+}
+.g-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.g-justify-center{
+    display: flex;
+    justify-content: center;
+}
